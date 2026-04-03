@@ -76,6 +76,11 @@ Documentation = "https://toy-gpt.github.io/train-300-context-2/"
 Issues = "https://github.com/toy-gpt/train-300-context-2/issues"
 Repository = "https://github.com/toy-gpt/train-300-context-2"
 
+# === BANDIT (SECURITY LINTING) ===
+
+[tool.bandit]
+skips = ["B105"] # WHY: tokens are not secrets in this project; they are the core data being modeled.
+
 # === DEPTRY (CHECK FOR UNDECLARED OR UNUSED DEPENDENCIES) ===
 
 [tool.deptry]
