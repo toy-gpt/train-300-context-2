@@ -1,5 +1,5 @@
 # ============================================================
-# .github/workflows/deploy-mkdocs-shared-shared.yml
+# .github/workflows/deploy-docs-shared-shared.yml
 # (Deploy MkDocs using shared config)
 # ============================================================
 # SOURCE: https://github.com/denisecase/templates
