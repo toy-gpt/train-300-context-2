@@ -4,7 +4,7 @@
 [![Latest Release](https://img.shields.io/github/v/release/toy-gpt/train-300-context-2)](https://github.com/toy-gpt/train-300-context-2/releases)
 [![Docs](https://img.shields.io/badge/docs-live-blue)](https://toy-gpt.github.io/train-300-context-2/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
-[![CI](https://github.com/toy-gpt/train-300-context-2/actions/workflows/ci-python-mkdocs-shared.yml/badge.svg?branch=main)](https://github.com/toy-gpt/train-300-context-2/actions/workflows/ci-python-mkdocs-shared.yml)
+[![CI](https://github.com/toy-gpt/train-300-context-2/actions/workflows/ci-shared.yml/badge.svg?branch=main)](https://github.com/toy-gpt/train-300-context-2/actions/workflows/ci-shared.yml)
 [![Deploy-Docs](https://github.com/toy-gpt/train-300-context-2/actions/workflows/deploy-mkdocs-shared.yml/badge.svg?branch=main)](https://github.com/toy-gpt/train-300-context-2/actions/workflows/deploy-mkdocs-shared.yml)
 [![Check Links](https://github.com/toy-gpt/train-300-context-2/actions/workflows/links.yml/badge.svg)](https://github.com/toy-gpt/train-300-context-2/actions/workflows/links.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/toy-gpt/train-300-context-2/security)
