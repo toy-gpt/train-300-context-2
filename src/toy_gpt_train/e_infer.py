@@ -241,7 +241,7 @@ def generate_tokens_context2(
     return generated
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     """Parse command-line arguments for inference."""
     parser = argparse.ArgumentParser(
         description="Run inference using saved training artifacts (context-2)."
@@ -265,7 +265,7 @@ def parse_args() -> argparse.Namespace:
         default=3,
         help="Number of top predictions to display (default: 3).",
     )
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
 def main() -> None:
@@ -295,7 +295,7 @@ def main() -> None:
         expected_rows=v * v,
     )
 
-    args: argparse.Namespace = parse_args()
+    args: argparse.Namespace = parse_args([])
 
     # Choose start tokens: CLI args > meta.json > error
     if args.start_tokens:
